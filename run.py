@@ -6,7 +6,7 @@ app = create_app()
 
 if __name__ == '__main__':
     # Set a secret key for sessions (best practice: use environment variable)
-    app.secret_key = os.environ.get("SECRET_KEY", "your-secret-key")
+    app.secret_key = os.environ.get("SECRET_KEY", "555555")
 
     # Get the port from Render (default to 10000 if not found)
     port = int(os.environ.get("PORT", 10000))
